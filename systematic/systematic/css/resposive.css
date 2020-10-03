@@ -1,0 +1,273 @@
+@media only screen and (max-width:991px){
+    .inner-menu{
+        background: none;
+        min-height: auto;
+    }
+    .mean-container .mean-nav {
+        margin-top: 0;
+        width: 80%;
+    }
+    .social-area {
+        max-width: 350px;
+        padding-top: 10px;
+    }
+
+    .alignleft{
+        float: none;
+        margin-right: 0;
+        margin-bottom: 15px;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+  
+    .hero-text{
+        width: 530px;
+        height: 440px;
+        float: none;
+        margin-left: 0;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        padding-top: 100px;
+    }
+
+    .inner-work-area{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        
+    }
+    .flex-wide{
+        flex-basis: 80%;
+    }
+    .inner-work-area h2{
+        text-align: center;
+    }
+    .about-area{
+        margin-bottom: 50px;
+    }
+    .service-area{
+        margin-bottom: 50px;
+        flex-basis: 50%;
+    }
+
+    .service-area .child-service{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .flex-wide2{
+        flex-basis: 80%;
+    }
+    footer{
+
+    }
+
+    .top-footer{
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .top-footer h2{
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-top: none;
+        padding-top: 0;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width:767px){
+  
+    #hero-area{
+       text-align: center;
+    }
+    .inner-hero{
+      
+    }
+    .alignleft{
+        float: none;
+        margin-right: 0;
+        margin-bottom: 15px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .slider-caption h1{
+        font-size: 25px;
+    }
+    .hero-text{
+        width: 530px;
+        height: 440px;
+        float: none;
+        margin-left: 0;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        padding-top: 100px;
+    }
+
+    .inner-hero h2 {
+        font-size: 75px;
+        line-height: 85px;
+      
+    }
+
+    .service-area{
+        margin-bottom: 50px;
+        flex-basis: 70%;
+    }
+    .bottom-footer{
+        text-align: center;
+    }
+    .bottom-footer .copy{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .bottom-footer .copy p{
+      padding: 5px 0;
+      font-size: 14px;
+    }
+
+
+}
+
+@media only screen and (max-width:557px){
+    .mini-menu{
+        width: 100%;
+        float: none;
+        padding-top: 5px;
+    }
+    .search-area{
+        width: 50%;
+        float: right;
+    }
+    .inner-top-header{
+        text-align: center;
+    }
+    .mini-menu ul{
+        text-align: center;
+    }
+    .search-area form{
+        background: #fff;
+        max-width: 210px;
+        width: 96%;
+        padding: 1%;
+        border-radius: 25px;
+        float: right;
+        padding-left: 10px;
+    }
+
+    .logo-area{
+        float: none;
+        width: 230px;
+        margin: 0 auto;
+    }
+   
+    .social-area{
+        float: none;
+        max-width: 100%;
+        padding-top: 25px;
+    
+    }
+    .social-area ul{
+        text-align: center;
+      
+    }
+    .slider-caption h1{
+        font-size: 25px;
+    }
+
+    .hero-text{
+        padding-top: 50px;
+        height: auto;
+    }
+
+    .inner-hero h2 {
+        font-size: 70px;
+        line-height: 85px;
+        height: auto;
+      
+    }
+    .service-area{
+        margin-bottom: 50px;
+        flex-basis: 90%;
+    }
+  
+  
+    
+}
+
+@media only screen and (max-width:480px){
+    .slider-caption h1{
+        font-size: 20px;
+    }
+    .mini-menu ul li{
+        margin-right: 15px;
+     }
+
+     .search-area form{
+        padding: 3px;
+        border-radius: 20px;
+        padding-left: 10px;
+        
+    }
+    .hero-text{
+        padding-top: 50px;
+        height: auto;
+        width: 350px;
+    }
+
+    .inner-hero h2 {
+        font-size: 50px;
+        line-height: 75px;
+        height: auto;
+      
+    }
+    .inner-hero p{
+        font-size: 14px;
+        line-height: 20px;
+    
+    }
+    .bottom-footer .copy p{
+        padding: 5px 0;
+        font-size: 13px;
+      }
+      .service-area{
+        margin-bottom: 50px;
+        flex-basis: 90%;
+    }
+  
+  
+}
+@media only screen and (max-width:350px){
+    .service-area{
+        margin-bottom: 50px;
+        flex-basis: 100%;
+    }
+  
+
+    .hero-text{
+        padding-top: 50px;
+        height: auto;
+        width: 320px;
+    }
+
+    .inner-hero h2 {
+        font-size: 35px;
+        line-height: 60px;
+        height: auto;
+      
+    }
+  
+}
